@@ -1,0 +1,331 @@
+/* 
+    Document   : estilo
+    Created on : 18/06/2011, 21:45:38
+    Author     : wallace
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{
+    margin: 0 auto;
+    background: url("../img/bg_total3.jpg") no-repeat fixed;
+    background-size: 100%;
+
+}
+
+#tudo{
+    margin: o auto;
+}
+
+#superior{
+    margin: 0 auto;
+
+    width: 100%;
+    height: 280px;
+    background: url("../img/bg_topo2.png") no-repeat;
+    background-size: 100%;
+
+}
+
+#logo{
+    margin: 50px;
+    margin-left: 10%;
+    width: 400px;
+    height: 150px;
+    background: url("../img/logo_ipeterras.png") no-repeat;
+    float: left;
+}
+
+#bt_ling{
+    margin-left: 80%;
+    position: absolute;
+
+}
+
+
+
+
+div.conteudoDireito{
+    display: none;
+}
+
+
+#navega{
+    margin-left:250px;
+    height: 30px;
+    font-family: fantasy;
+    font-style: oblique;
+    /*    width: 900px;*/
+    /*    background-color: greenyellow*/
+    /*    margin-left: 70px;*/
+
+}
+
+.subnav{
+    margin: 0 auto;
+    position: absolute;
+    visibility: collapse;
+}
+
+
+
+#coteudoTotal{
+    margin-left:50px;
+    margin-top: 50px;
+}
+
+#links{
+/*    background-color: chartreuse;*/
+    width: 200px;
+    height: 650px;
+    -moz-border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    float: left;
+}
+
+#links img{
+    margin-top: 50px;
+
+
+}
+
+#conteudoEsquerdo{
+    float: left;
+    position: relative;
+    /*    margin-left: 200px;*/
+    margin-top: 50px;
+    /*    margin: 10px 0 0 20px;*/
+    /*    display: inline;*/
+    /*    background-color: #4374fd;*/
+    /*    padding-top: 15px;*/
+    /*    padding-left: 10px;*/
+    /*    padding-right: 10px;*/
+    /*    text-align: justify;*/
+    /*    opacity: 0.5;*/
+    /*    float: left;
+    clear: left;
+    */   
+    /*margin-bottom: 80px;
+        height: 250px;
+        margin-left:70px;
+            margin-right:370px;
+        padding: 10px;
+        background-color: aqua;
+        display: inline;
+        width: 560px;
+        height: 480px;
+        padding: 20px 0 ;
+        margin: 10px 0 0 20px;*/
+}
+
+#info_fotos img{
+
+    float: left;
+    display:inline;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#gallery{
+    width: 800px;
+    margin-left: 25px;
+
+}
+
+#gallery_titulo h3{
+    width: 800px;
+    color: white;
+    float: left;
+    text-align: center;
+    -moz-border-radius:5px;
+    background-color: darkgreen;
+    height: 30px;
+}
+
+
+#info_fotos li{
+    list-style:none;
+}
+
+#conteudoDireito{
+    position: absolute;
+    color: #ff3f00;
+    -moz-border-radius:5px;
+    margin-left: 700px;
+    margin-top: 25px;
+    /*    opacity:0.3;*/
+    /*    background-color: #f1f1f1;*/
+    /*    padding-left: 20px;*/
+    /*    margin-left: 15px;*/
+    /*    background-color: gray;*/
+    /*    width: 200px;*/
+    /*    height: 300px;*/
+    /*    padding: 20px 0;*/
+    /*    margin: 0 30px 0 0;*/
+    /*    background-color: #00f;*/
+    /*    float: right;
+    background-color: #999;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    display: inline;*/
+}
+
+#slideClientes{
+    position:absolute;
+    /*background-color: blue;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;*/
+}
+
+#rodape{
+    margin-top: 20px;
+    width: 100%;
+    height: 175px;
+    background: white;
+    opacity: 0.8;
+    -moz-border-radius:3px;
+    position: inherit;
+    float:left;
+    background-size: 100%;
+}
+
+#rodape h3{
+    margin-left: 15px;
+    color: blue;
+    position: absolute;
+    float: left;
+}
+
+.rodape_img{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+
+}
+
+#rodape_conj_img{
+    margin-left: 150px;
+}
+
+#tituloCliente h1{
+    color: #f1f1f1;
+    font-size: medium;
+    font-family: Arial;
+    background: #4374fd;
+    -moz-border-radius:5px;
+    /*    opacity:1;*/
+
+}
+
+#pagina{
+    width: 700px;
+    display: block;
+    float:left;
+/*    margin: 30px;
+    margin-left: 10px;
+    padding: 10px;*/
+    position: relative;
+
+
+}
+
+.img_pg{
+    position: relative;
+    float: left;
+
+}
+
+.txt_pg{
+    width: 400px;
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+
+
+.imagem {
+    padding: 5px;
+    margin-left: 550px;
+    margin-top: 10px;
+    /*padding-left: 5px;
+    padding-right: 5px;*/
+
+    /*    opacity:1;*/
+    /*    padding-bottom: 10px;*/
+
+    /*    opacity: 0.1;*/
+    -moz-border-radius:3px;
+}
+/*.imagem p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}*/
+
+ul.nav { 
+    /*    margin-bottom: 10px; */
+    padding:0;
+
+}
+
+ul.nav li {
+    list-style:none;	
+    display:inline;
+
+}
+ul.nav li a {
+    float:left;
+    /*    border:1px solid #f00;*/
+    height: 20px;
+    /*    width:7.0em;*/
+    font:0.9em  Arial;
+    /*    background:#fff200;*/
+    color:#010101;
+    padding-top: 5px;
+    padding-left: 30px;
+    text-align:center;
+    font-size: medium;
+    font-family: fantasy;
+    /*    padding:0.5em  0.5em 0.2em  0.5em;*/
+    margin-right: 3px;
+    /*    margin-bottom: 15px;*/
+    /*        margin-left: 10px;*/
+    text-decoration:none;
+    -moz-border-radius:3px;
+
+
+
+}
+
+
+ul.nav a:hover{
+    background:#999;
+    color:#fff;
+    border-color:#00f;
+}
+
+ul.nav a:focus{
+    background:#999;
+    color:#fff;
+    border-color:#00f;
+}
+
+
+
+

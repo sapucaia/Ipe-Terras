@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>Contato</title>
+<script type="text/javascript" src="mascara.js"></script>
+</head>
+<body onLoad="document.getElementById('captcha').src='captcha.php?'+Math.random()">
+<font face="Verdana" size="2">
+<form action="envia.php" method="post" onSubmit="return false;">
+<table>
+  <tr>
+    <td valign="top">Seu nome: </td>
+    <td><input type="text" name="nome" maxlength="255"></td>
+  </tr>
+  <tr>
+    <td valign="top">Seu e-mail: </td>
+    <td><input type="text" name="email" maxlength="255"></td>
+  </tr>
+  <tr>
+    <td valign="top">Telefone: </td>
+    <td><input type="text" name="telefone" onkeypress="mascara( this, mtel );" maxlength="15"></td>
+  </tr>
+  <tr>
+    <td valign="top">Assunto: </td>
+    <td><select name="assunto">
+          <option value="reclamacoes">Reclamações</option>
+          <option value="sugestoes">Sugestões</option>
+          <option value="comprar">Compras</option>
+          <option value="contato"  selected>Contato</option>
+        </select>
+    </td>
+  </tr>
+<!--  <tr>
+    <td valign="top">Anti-spam: </td>
+    <td><img src="captcha.php" id="captcha"><br/>
+        <input type="button" onClick="document.getElementById('captcha').src='captcha.php?'+Math.random();document.getElementById('captchatext').value=''" value="Gerar nova combinação"><br/>
+        <input type="text" name="captcha" id="captchatext" maxlength="255">
+    </td>
+  </tr>-->
+  <tr>
+    <td valign="top">Mensagem: </td>
+    <td><textarea rows="10" cols="35" name="mensagem" style="font-family:Verdana, Arial, Helvetica, sans-serif"></textarea></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="button" onClick="this.form.submit();" value="Enviar"></td>
+  </tr>
+</table>
+</form>
+</font>
+</body>
+</html>

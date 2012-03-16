@@ -1,0 +1,75 @@
+Formulário de contato by JS
+www.js.website.org
+js@netpoint.eu.tc
+
+Destaques
+ - Fácil configuração
+ - Captcha (anti-bots)
+ - Máscaras de entrada
+ - Segurança
+ - Resposta automática
+
+Estrutura de arquivos
+./
+  captcha.php - Gera o campo anti-spam
+  config.php - Arquivo de configuração
+  envia.php - Script que envia os e-mails
+  form.html - Formulário
+  mascara.js - Máscaras em JavaScript
+  meusemails.txt - Exemplo de arquivo de backup de mensagens (altere no arquivo de configuração)
+  verdana.ttf  - Fonte do captcha
+
+Como usar
+Modo A
+  Coloque este código onde você deseja ter o formulário:
+    <iframe src="form.html" frameborder="0" allowtransparency="true" width="400" height="410" scrolling="auto"><a href="form.html" target="_blank">Clique aqui</a></iframe>
+  Copie todos os arquivos para o diretório onde está o arquivo no qual foi colocado o código acima.
+  Configure o script pelo arquivo config.php .
+
+Modo B
+  Copie este código e cole entre as tags <head> e </head> em sua página:
+    <script type="text/javascript" src="mascara.js"></script>
+  Cole o formulário (modificando-o, se necessário) no local desejado:
+--- begin ---
+<form action="envia.php" method="post" onSubmit="return false;">
+<table>
+  <tr>
+    <td valign="top">Seu nome: </td>
+    <td><input type="text" name="nome" maxlength="255"></td>
+  </tr>
+  <tr>
+    <td valign="top">Seu e-mail: </td>
+    <td><input type="text" name="email" maxlength="255"></td>
+  </tr>
+  <tr>
+    <td valign="top">Telefone: </td>
+    <td><input type="text" name="telefone" onkeypress="mascara( this, mtel );" maxlength="15"></td>
+  </tr>
+  <tr>
+    <td valign="top">Assunto: </td>
+    <td><select name="assunto">
+          <option value="reclamacoes">Reclamações</option>
+          <option value="sugestoes">Sugestões</option>
+          <option value="contato" selected>Contato</option>
+        </select>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Anti-spam: </td>
+    <td><img src="captcha.php" id="captcha"><br/>
+        <input type="button" onClick="document.getElementById('captcha').src='captcha.php?'+Math.random();document.getElementById('captchatext').value=''" value="Gerar nova combinação"><br/>
+        <input type="text" name="captcha" id="captchatext" maxlength="255">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Mensagem: </td>
+    <td><textarea rows="10" cols="35" name="mensagem" style="font-family:Verdana, Arial, Helvetica, sans-serif"></textarea></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="button" onClick="this.form.submit();" value="Enviar"></td>
+  </tr>
+</table>
+</form>
+---  end  ---
+  Configure o arquivo config.php e copie os arquivos para o mesmo diretório do arquivo no qual foi colocado os códigos acima.

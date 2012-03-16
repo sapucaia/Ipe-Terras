@@ -1,0 +1,106 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ipe Terras</title>
+        <!--        <link rel="stylesheet" href="estilo/estilo.css"/>-->
+
+        <link href="jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="estilo/estilo.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+        <script type="text/javascript" src="script/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="script/jquery-ui-1.8.6.custom.min.js"></script>
+        <script type="text/javascript" src="script/jquery.lightbox-0.5.min.js"></script> 
+        <script type="text/javascript" src="script/jquery.cycle.lite.min.js"></script>
+
+        <!--
+      	<script type="text/javascript" src="script/efeitoBarraNav.js"></script>
+        -->
+
+        <script type="text/javascript" src="script/newjavascript.js"></script>
+
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--
+-->                <script type="text/javascript">
+                    $(function(){
+                    //                $('#slideClientes').show();
+                    $('#slideClientes').cycle({
+                    fx:      'fade',
+                    speedIn:  2000,
+                    speedOut: 500,
+                    easeIn:  'easeInCirc',
+                    easeOut: 'easeOutBounce',
+                    delay:   -2000
+                    });
+                });
+
+                </script><!--
+        -->
+    </head>
+
+    <body>
+        <div id="tudo">
+            <div id="superior">
+                <div id="logo"></div>
+<!--                <div id="tituloCliente"><h1>Parceiros</h1></div>-->
+                <div id="slideClientes">
+                    <div class="imagem"><img src="imagens/2musicos.jpg" width="400" height="170"/></div>
+                    <div class="imagem"><img src="imagens/casas.jpg" width="400" height="170"/></div>
+                    <div class="imagem"><img src="imagens/P9160067.jpg" width="400" height="170"/></div>
+                    <div class="imagem"><img src="imagens/P9160277.JPG" width="400" height="170"/></div>
+                    <div class="imagem"><img src="imagens/P9160221.jpg" width="400" height="170"/></div>
+                </div>
+                <div id="bt_ling">
+                    <br/>
+                    <img src="images/icone_ling/ic_pt.png" width="32" height="32"/></br></br>
+                    <img src="images/icone_ling/ic_fr.png" width="32" height="32"/></br></br>
+                    <img src="images/icone_ling/ic_ing.png" width="32" height="32"/>
+                </div>
+                <!--
+                <div id="conteudoDireito"> -->
+                
+            </div>
+        </div>
+
+        <div id ="navega">
+            <ul class="nav" id="barra" >
+                <li><a href="pagina1.html" title="Apresentacao">Apresentação</a></li>
+                <li><a href="pagina2.html" title="Atuacao">Atuaçao</a></li>
+                <li><a href="pagina3.html" title="Permacultura">A Permacult ura</a>
+                    <!--                    <ul id="subnav">
+                                            <li><a href="pagina3_1.html" title="Teoria Geral">Teoria Geral</a></li>
+                                        </ul>-->
+                </li>
+                <li><a href="pagina4.html" title="Imagens">Imagens</a></li>
+                <li><a href="pagina5.html" title="Contato">Contato</a></li>
+                <li><a href="pagina6.html" title="Artigos e Textos">Artigos e Textos</a></li>
+            </ul>
+        </div>
+
+        <!--<div id="conteudo">
+            <div id="coteudoTotal"></div>-->
+        <div id="links">
+            <a href="voluntariado.htm"><img src="images/botoes/bt_exp_coruja.png"/></a><br>
+            <a href="doacoes.htm"><img href="doacoes.htm" src="images/botoes/bt_doacao.png" /></a><br>
+            <a href="pagina5.html"><img src="images/botoes/bt_semente.png" /></a><br>
+        </div>
+        <div id="conteudoEsquerdo"></div>
+
+
+        <div id="rodape"><h3></h3>
+            <div id="rodape_conj_img">
+                <img class="rodape_img" src="atuacao/logoECH.jpg"/>
+                <img class="rodape_img" src="atuacao/cpt.gif"/>
+                <img class="rodape_img" src="atuacao/IPBA.jpg"/>
+                <img class="rodape_img" src="atuacao/logoABONG.jpg"/>
+                <img class="rodape_img" src="atuacao/logoasa.jpg"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

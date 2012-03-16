@@ -1,0 +1,48 @@
+
+
+<script>
+	$(function() {
+    $('#gallery a').lightBox();
+    });
+    </script>
+
+<div id="gallery">
+	<a href="imagens/2musicos.jpg" title="RAstaman" rel="lightbox"><img src="imagens/2musicos.jpg" width="100" height="80" alt="" /></a>
+</div>
+	
+
+
+        
+<!--
+        <a href="imagens/Central/saogoncalo.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/saogoncalo.jpg" alt="Foto 1" />
+        </a>
+
+        <a href="imagens/Central/foule2.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/foule2.jpg" alt="Foto 1" />
+        </a>
+
+
+        <a href="imagens/Central/grupo.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/grupo.jpg" alt="Foto 1" />
+        </a>
+
+        <a href="imagens/Central/grupo2.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/grupo2.jpg" alt="Foto 1" />
+        </a>
+
+        <a href="imagens/Central/igreja.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/igreja.jpg" alt="Foto 1" />
+        </a>
+
+        <a href="imagens/Central/india.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/india.jpg" alt="Foto 1" />
+        </a>
+
+        <a href="imagens/Central/querubins.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/querubins.jpg" alt="Foto 1" />
+        </a>
+
+        <a href="imagens/Central/logomaraca_festival.jpg" rel="lightbox" title="Praia X">
+            <img src="imagens/Central/logomaraca_festival.jpg" alt="Foto 1" />
+        </a>-->
